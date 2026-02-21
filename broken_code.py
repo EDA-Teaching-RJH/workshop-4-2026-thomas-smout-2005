@@ -2,13 +2,13 @@ def main():
     # Ask how many students are in the class 
     student_count = int(input("How many students to enter? ")) # Made sure to specify variable is an integer so range can be worked out later
 
-    # Lists to store data 
-    names = [] 
-    scores = [] 
+    # Lists to store data
+    names = []
+    scores = []
 
-    # Loop to get student details 
-    for i in range(student_count): 
-        print("Student " + i + 1) 
+    # Loop to get student details
+    for i in range(student_count):
+        print(f"Student {i + 1}") # Fixed print statement
 
         # Clean up the name input 
         name_input = input("Name: ").strip.title() 
